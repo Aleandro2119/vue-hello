@@ -8,3 +8,11 @@ Aggiungere alla pagina un’immagine, presa anch’essa da un data. */
 console.log('Vue ok', Vue);
 
 Vue.config.devtools = true;
+
+const root = new Vue({
+    el: '#root',
+    data: {
+        heanding: 'ITALIA SALE SUL TETTO PIU ALTO, CAMPIONI NELLA FINALE A WEMBLEY!!!',
+    }
+
+});
