@@ -13,6 +13,7 @@ const root = new Vue({
     el: '#root',
     data: {
         heanding: 'ITALIA SALE SUL TETTO PIU ALTO, CAMPIONI NELLA FINALE A WEMBLEY!!!',
+        image: 'img/italiacampione.jpg',
     }
 
 });
